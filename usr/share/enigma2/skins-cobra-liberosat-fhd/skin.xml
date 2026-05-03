@@ -156,7 +156,7 @@
   <include filename="skin_templates.xml" />
   <include filename="skin_plugins.xml" />
   <!-- Volume -->
-  <screen name="Volume" title="Volume" position="0,360" size="30,330" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
+  <screen name="Volume" title="Volume" position="40,360" size="30,330" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
     <widget name="Volume" pixmap="infobar/volumeslider.png" position="0,3" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1" />
     <ePixmap pixmap="infobar/vol_box.png" position="0,303" size="30,24" alphatest="on" zPosition="4" />
   </screen>
