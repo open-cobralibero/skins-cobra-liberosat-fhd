@@ -256,7 +256,7 @@
       <convert type="MSNWeather">temperature_current</convert>
     </widget>
     <widget source="session.MSNWeather" render="MSNWeatherPixmap" position="1431,942" size="70,68" transparent="1" zPosition="1" alphatest="blend">
-      <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/skins-cobra_libero-fhd/weather_icons/,png</convert>
+      <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/skins-cobra-liberosat-fhd/weather_icons/,png</convert>
     </widget>
     <eLabel text="Tuner :" position="1525,979" size="95,28" font="Regular; 24" backgroundColor="background" foregroundColor="grey" halign="left" transparent="1" zPosition="1" />
     <widget source="session.FrontendInfo" render="Label" position="1606,980" size="261,32" borderWidth="1" borderColor="black" zPosition="1" backgroundColor="transpBlack" transparent="1" halign="left" font="Regular; 24" foregroundColor="grey">
