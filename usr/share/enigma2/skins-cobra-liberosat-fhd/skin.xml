@@ -634,6 +634,7 @@
     <panel name="MenuTemplate" />
   </screen>
   <screen flags="wfNoBorder" name="menu_mainmenu" position="fill">
+  <ePixmap pixmap="skins-cobra-liberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
   <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
     <panel name="MenuTemplate" />
   </screen>
