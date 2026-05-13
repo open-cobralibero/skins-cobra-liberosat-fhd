@@ -156,7 +156,7 @@
   <include filename="skin_templates.xml" />
   <include filename="skin_plugins.xml" />
   <!-- Volume -->
-  <screen name="Volume" title="Volume" position="30,360" size="30,330" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
+  <screen name="Volume" title="Volume" position="15,360" size="30,330" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
     <widget name="Volume" pixmap="infobar/volumeslider.png" position="0,3" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1" />
     <ePixmap pixmap="infobar/vol_box.png" position="0,303" size="30,24" alphatest="on" zPosition="4" />
   </screen>
@@ -2196,8 +2196,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) // 2, orgpos.y() + 
   </screen>
   <!-- QuitMainloopScreen -->
   <screen name="QuitMainloopScreen" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="../logo/logo-white-square.png" position="c-200,c-318" size="400,318" scale="1" alphatest="blend" />
+    <ePixmap pixmap="infobar/shutdown.png" position="c-200,c-318" size="400,318" scale="1" alphatest="blend" />
     <widget name="text" position="c-885,c+15" size="1770,150" font="Regular;30" halign="center" />
+    <eLabel text="Skin: mod. By.COBRALIBEROSAT" position="center,130" size="1000,60" font="Regular;46" halign="center" foregroundColor="#00BFFF" />
   </screen>
   <!-- QuickSubtitlesConfigMenu -->
   <screen name="QuickSubtitlesConfigMenu" position="20,30" size="924,462" title="Subtitle settings" backgroundColor="#7f000000" flags="wfNoBorder">

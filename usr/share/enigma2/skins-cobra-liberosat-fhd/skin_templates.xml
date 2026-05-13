@@ -39,6 +39,7 @@
     </widget>
     <eLabel text="COBRALIBEROSAT @ " position="1265,58" size="266,50" font="Bold; 24" backgroundColor="background" foregroundColor="yellowsoft" halign="center" transparent="1" zPosition="1"/>
     <eLabel text="Welcome to ...   BY " position="990,58" size="266,50" font="Bold; 22" backgroundColor="background" foregroundColor="yellowsoft" halign="center" transparent="1" zPosition="1"/>
+    <ePixmap name="" position="1530,40" size="266,50" zPosition="1" pixmap="infobar/dish150.png" alphatest="on" />
   </screen>
   <screen name="BasicTemplate">
     <panel name="TopTemplate" />
